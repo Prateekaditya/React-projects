@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.navbar img{
+  margin-left: 70px;
+}
+.navbar ul{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-right: 50px;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #2E2E2E;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.mainbody{
+  padding: 10px;
+  margin-left: 220px;
+  margin-right: 350px;
+  margin-top: 20px;
+}
+.mainbody h1{
+  font-weight: 800;
+  font-size: 3rem;
+}
+.mainbody p{
+  color: #2E2E2E;
+  font-size: 0.99rem;
+  font-weight: 500;
+}
+.forbuttons{
+  display: flex;
+  gap:40px;
+  margin-left: 220px;
+}
+.ptn{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  width: 180px;
+  align-content: center;
+  border-radius: 5px;
+  border: none;
+  margin-top: 50px;
+  justify-content: center;
+  font-weight: 700;
+}
+.stn{
+  background-color: white;
+  color: black;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  width: 380px;
+  font-weight: 800;
+  align-content: center;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-left: 220px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.inputtext{
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  margin-left: 224px;
+
+}
+.inputdec{
+  min-height: 30px;
+  border: 1px solid black;
+  position: relative;
+  z-index: 0;
+  padding: 10px;
+}
+.inputlabel{
+  position: relative;
+  top: 10px;
+  z-index: 1;
+  background-color: white;
+  width: 55px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-left: 15px;
+  justify-content: center;
+  display: flex;
+}
+.submit{
+  margin-left: 400px;
+  position: relative;
+  top: -40px;
+}
+.heromain{
+  display: flex;
+  gap: 50px;
+}
+.imghero{
+  height: 478px;
+  position: relative;
+  top: -20px;
+}
